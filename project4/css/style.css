@@ -1,0 +1,87 @@
+
+
+
+
+
+
+
+
+/*
+Header
+*/
+
+header {
+    color: #d9d3d3;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/*
+引文
+*/
+
+blockquote {
+    width: 300px;
+    background-image: url(../image/quote-512.png);
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    background-position: right bottom;
+}
+
+
+/*
+縮圖區塊設定
+*/
+
+.thumbnail {
+    width: calc(25% - 20px );
+    float: left;
+    margin:10px;
+}
+
+
+}
+.thumbnail-img {
+    width: 100%
+}
+.caption-title {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    text-align: center;
+}
+.caption-body {
+    line-height: 1.5;
+}
+.caption-btn {
+    text-decoration: none;
+}
+.caption-btn {
+    display: block;
+    font-size: 15px;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border: 1px solid #744e1a;
+    border-radius: 5px;
+}
+.caption-btn:link {
+    font-size: 20px;
+    color: #744e1a;
+    background-color: blanchedalmond;
+}
+.caption-btn:visited {
+    color: red;
+    background-color: blanchedalmond;
+}
+.caption-btn:hover {
+    color: red;
+    background-color: blanchedalmond;
+}
+.caption-btn:active {
+    color: #744e1a;
+    background-color: blanchedalmond;
+}
