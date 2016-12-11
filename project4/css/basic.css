@@ -1,7 +1,61 @@
-/*
-<<<<<<< HEAD
-基本導覽列設定
-*/
+/*box model 設定*/
+
+* {
+    box-sizing: border-box;
+}
+
+
+/* Container */
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+article,
+section,
+div,
+nav,
+aside {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*Reset Css*/
+
+
+/*圖片模組*/
+
+.thumbnail {
+    border: 1px solid #ddd;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.thumbnail img {
+    width: 100%;
+}
+
+.thumbnail.caption h3 {
+    font-size: 1em;
+}
+
+.thumbnail.caption p {
+    font-size: 0.75em
+}
+
+
+/*基本的導覽列設定*/
 
 nav li>ul {
     display: none;
@@ -20,32 +74,3 @@ nav li {
 }
 
 nav li>ul>li {}
-
-/*
-=======
->>>>>>> master
-所有標籤基礎設定
-*/
-
-* {
-    box-sizing: border-box;
-}
-
-
-/*
-基本標籤reset padding margin*/
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-section,
-body,
-article,
-div {
-    padding: 0;
-    margin: 0;
-}
