@@ -1,0 +1,27 @@
+jumbotron {
+    text-align: center;
+    height: calc(100vh - 50px);
+}
+
+.navbar {
+    margin-bottom: 0px;
+    background-color: darkgray;
+    color: white;
+    border-radius: opx;
+    border-style: none;
+}
+
+#slideshow img{
+    width:100%;
+    
+    
+}
+
+.container{
+    font-family: fantasy;
+}
+
+footer{
+    
+    font-family: fantasy;
+}

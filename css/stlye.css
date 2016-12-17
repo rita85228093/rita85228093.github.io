@@ -1,0 +1,196 @@
+/*基本導覽設定*/
+
+nav {
+    background-size: cover;
+    background-color: white;
+    color: #817b7b;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 0px;
+}
+
+nav:ink {
+    color: #4d2e05;
+}
+
+nav:visited {
+    color: #4d2e05;
+}
+
+nav:hover {
+    color: #4d2e05;
+}
+
+nav:active {
+    color: #4d2e05;
+}
+
+nav a {
+    color: darkgrey;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+}
+
+nav ul {
+    padding: 0px;
+}
+
+nav>ul>li {
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+    display: inline-block;
+    clear: both;
+    font-family: 'Finger Paint', cursive;
+    font-size: 20px;
+}
+
+ul>li>ul {
+    width: 100px;
+    position: absolute;
+    text-align: center;
+    font-family: 'Finger Paint', cursive;
+    font-size: 15px;
+    color: #817b7b;
+    background-color: #e8e4e4;
+    border-radius: 2px;
+}
+
+li>ul>li {
+    border-bottom: 0.1px solid;
+}
+
+
+/*jumbotron的設定*/
+
+.jumbotron {
+    color: white;
+    border-top: 8px solid #c3bcbc;
+    height: 100vh;
+    background-image: url(https://source.unsplash.com/1300x784?macaroon);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    clear: both;
+}
+
+.jumbotron>.container {
+    width: 50%;
+}
+
+.jumbotron h1 {
+    text-align: center;
+    border-bottom: 2px solid white;
+    margin-bottom: 10px;
+    font-family: 'Finger Paint', cursive;
+    letter-spacing: 2px;
+}
+
+.jumbotron p {
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: 'Finger Paint', cursive;
+    letter-spacing: 1px;
+}
+
+
+/*btn設定*/
+
+.btn {
+    text-align: center;
+    text-decoration: none;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid;
+    border-radius: 5px;
+    margin: 5px auto;
+    display: block;
+}
+
+.btn-primary {
+    background-color: #e6d0a6;
+    border-color: #ada28e;
+    font-family: 'Finger Paint', cursive;
+    font-size: 20px;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+.btn-lg {
+    width: 200px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 20px;
+}
+
+.btn-primary:ink {
+    color: #4d2e05;
+}
+
+.btn-primary:visited {
+    color: #a5632a;
+}
+
+.btn-primary:hover {
+    color: #4d2e05;
+}
+
+.btn-primary:active {
+    color: #d48b27;
+}
+
+
+/*content設定*/
+
+.content,
+article {
+    margin-bottom: 20px;
+    float: left;
+    font-family: 'Finger Paint', cursive;
+}
+
+article:nth-child(2n-1) {
+    padding: 10px;
+    background-color: #ddd;
+}
+
+article:first-child p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+article:first-child p .first-letter {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 90px;
+    font-weight: bold;
+    float: left;
+}
+
+.introduce {
+    font-family: 'Finger Paint', cursive;
+}
+
+
+    
+    
+ 
+
+
+
+    
+    
+    
+
+
+footer {
+    background-color: #4d2e05;
+    font-family: fantasy;
+    color: white;
+    text-align: left;
+    clear: both;
+    padding: 5px;
+}
